@@ -41,3 +41,5 @@ To run the test, you can execute `make test` command and then you can find the t
 ## Misc.
 
 if you found an error like `PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted` you need to increase the PHP memory limit. [reference](https://www.php.net/manual/en/ini.core.php#ini.memory-limit)
+
+if you need to empty the tmp directory, you can execute `make clean` command
