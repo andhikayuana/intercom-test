@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+require 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
+
+$app = new Yuana\App();
+$customers = $app->readCustomersFile(Yuana\Constant::TEST_INPUT_FILE);
+$invitedCustomers = $app->getInvitedCustomers($customers);
+foreach ($invitedCustomers as $customer) {
+    echo json_encode($customer)."\n";
+}
