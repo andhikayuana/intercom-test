@@ -32,6 +32,8 @@ if you need to test with another file, you can replace `storage/customers.txt` f
 
 and then you will see the invited customers that printed on the terminal and you can find the output file inside the `tmp/output.txt`
 
+if you need to see the output sample, you can find in `storage/sample-output.txt`
+
 ## Running Test
 
 To run the test, you can execute `make test` command and then you can find the test coverage inside `tmp/coverage/index.html`
