@@ -13,9 +13,9 @@
 * install project dependencies using `composer install`
 
 ```sh
-$ git clone git@github.com:andhikayuana/intercom-test.git
-$ cd intercom-test
-$ composer install
+git clone git@github.com:andhikayuana/intercom-test.git
+cd intercom-test
+composer install
 ```
 
 ## How to Execute
@@ -23,9 +23,9 @@ $ composer install
 you can execute inside the project directory by using this command
 
 ```sh
-$ php yuana
-$ # or you can use 
-$ make run
+php yuana
+# or you can use 
+make run
 ```
 
 if you need to test with another file, you can replace `storage/customers.txt` file
